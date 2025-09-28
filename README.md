@@ -68,7 +68,7 @@ This project utilizes the Airbnb Open Data to:
 ---
 
 ## Live Demo of my app 
-   View the [App](https://aditya-yadav007-twitter-sentiment-analysis-app-hmewpp.streamlit.app)
+   View the [WebPage]([https://aditya-yadav007.github.io/VOIS_AICTE_Oct2025_Aditya_Yadav/])
 ---
 
 ## Author
