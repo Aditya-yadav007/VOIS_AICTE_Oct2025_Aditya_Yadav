@@ -64,3 +64,13 @@ This project utilizes the Airbnb Open Data to:
 - **Exploratory Data Analysis (EDA)**: Visualized distributions, correlations, and trends.
 
 - **Predictive Modeling**: Built and evaluated models to predict booking prices and occupancy rates.
+
+---
+
+## Live Demo of my app 
+   View the [App](https://aditya-yadav007-twitter-sentiment-analysis-app-hmewpp.streamlit.app)
+---
+
+## Author
+   Aditya Yadav
+   [GitHub](https://github.com/Aditya-yadav007) | [LinkedIn](https://www.linkedin.com/in/aditya-yadav-aky/)
