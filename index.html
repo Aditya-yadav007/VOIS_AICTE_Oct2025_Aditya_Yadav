@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VOIS AICTE Oct2025 · Aditya Yadav</title>
+  <meta name="description" content="Airbnb Data Analysis & Insights — data analysis, visualization, and predictive modeling by Aditya Yadav." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- Chart.js for sample visual -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="brand" aria-label="VOIS AICTE Oct2025 Home">
+        <span class="brand__logo">AY</span>
+        <span class="brand__text">AICTE · Oct2025</span>
+      </a>
+      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav__menu" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#tech">Technologies</a>
+        <a href="#demo">Demo / Notebook</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <h1>Airbnb Data Analysis & Insights</h1>
+        <p class="subtitle">Professional analysis of Airbnb open data with rich visualizations and predictive modeling to uncover market trends, pricing strategies, and actionable insights.</p>
+        <div class="cta-group">
+          <a class="btn btn--primary" href="https://github.com/Aditya-yadav007/VOIS_AICTE_Oct2025_Aditya_Yadav" target="_blank" rel="noopener" aria-label="View GitHub Repository">View on GitHub</a>
+          <a class="btn btn--ghost" href="Airbnb_hotel_Booking_Analysis.ipynb" target="_blank" rel="noopener" aria-label="Open Jupyter Notebook (local)">Open Notebook</a>
+        </div>
+        <p class="nbviewer-hint">Tip: If viewing online, try the nbviewer link: <a href="https://nbviewer.org/github/Aditya-yadav007/VOIS_AICTE_Oct2025_Aditya_Yadav/blob/main/Airbnb_hotel_Booking_Analysis.ipynb" target="_blank" rel="noopener">Open in nbviewer</a></p>
+      </div>
+      <div class="hero__visual">
+        <img src="assets/img/data-illustration.svg" alt="Data-themed illustration with charts and insights" />
+        <div class="chart-card">
+          <canvas id="heroChart" aria-label="Sample trend chart" role="img"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section section--alt">
+    <div class="container">
+      <h2>Key Features</h2>
+      <p class="section__lead">End-to-end data workflow tailored for exploratory analysis and predictive insight generation.</p>
+      <div class="features__grid">
+        <div class="feature">
+          <div class="feature__icon">📊</div>
+          <h3>Exploratory Data Analysis</h3>
+          <p>Comprehensive EDA to understand distributions, correlations, and patterns in Airbnb listings and bookings.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">📈</div>
+          <h3>Interactive Visualizations</h3>
+          <p>Clean, insightful charts and maps highlighting pricing trends, occupancy, seasonality, and geographic hotspots.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🤖</div>
+          <h3>Predictive Modeling</h3>
+          <p>Price and occupancy forecasting using regression and ensemble techniques for decision-ready insights.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">⚙️</div>
+          <h3>Reproducible Workflow</h3>
+          <p>Notebook-driven analysis with clean code, documented steps, and version control for transparency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies -->
+  <section id="tech" class="section">
+    <div class="container">
+      <h2>Technologies Used</h2>
+      <ul class="tech__list">
+        <li><span class="badge">Python</span></li>
+        <li><span class="badge">Pandas</span></li>
+        <li><span class="badge">NumPy</span></li>
+        <li><span class="badge">Matplotlib</span></li>
+        <li><span class="badge">Seaborn</span></li>
+        <li><span class="badge">Scikit-learn</span></li>
+        <li><span class="badge">Jupyter</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Demo / Notebook Access -->
+  <section id="demo" class="section section--alt">
+    <div class="container">
+      <h2>Demo & Notebook Access</h2>
+      <div class="demo__grid">
+        <div class="demo__card">
+          <h3>Local Notebook</h3>
+          <p>Open the notebook locally to explore the code, visualizations, and modeling steps.</p>
+          <a class="btn btn--primary" href="Airbnb_hotel_Booking_Analysis.ipynb" target="_blank" rel="noopener">Open .ipynb</a>
+        </div>
+        <div class="demo__card">
+          <h3>Online Viewer</h3>
+          <p>View the notebook rendered online via nbviewer for convenience.</p>
+          <a class="btn btn--ghost" href="https://nbviewer.org/github/Aditya-yadav007/VOIS_AICTE_Oct2025_Aditya_Yadav/blob/main/Airbnb_hotel_Booking_Analysis.ipynb" target="_blank" rel="noopener">Open in nbviewer</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2>Contact</h2>
+      <p>Have questions or feedback? Get in touch.</p>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:itsadityayadav35@gmail.com">Email Aditya</a>
+        <a class="btn btn--ghost" href="https://github.com/Aditya-yadav007" target="_blank" rel="noopener">GitHub Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> VOIS AICTE Oct2025 · Aditya Yadav. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
