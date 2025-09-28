@@ -1,62 +1,66 @@
-VOIS AICTE Oct2025 – Aditya Yadav
+# VOIS AICTE Oct2025 – Aditya Yadav
 
-Welcome to the repository for the AICTE October 2025 VOIS Project by Aditya Yadav. This project explores data analysis and visualization techniques using the Airbnb dataset to uncover insights into global hospitality trends.
+Welcome to the repository for the **AICTE October 2025 VOIS Project by Aditya Yadav**. This project explores **data analysis** and **visualization techniques** using the Airbnb dataset to uncover insights into global hospitality trends.
 
-📊 Project Overview
+---
+
+## 📊 Project Overview
 
 This project utilizes the Airbnb Open Data to:
 
-Analyze booking patterns across different regions.
+- Analyze booking patterns across different regions.
 
-Identify key factors influencing pricing and occupancy.
+- Identify key factors influencing pricing and occupancy.
 
-Visualize trends and anomalies in the hospitality industry.
+- Visualize trends and anomalies in the hospitality industry.
 
-📁 Repository Structure
+---
 
-Airbnb_Open_Data.csv: The raw dataset containing global Airbnb listings.
+## 📁 Repository Structure
 
-Airbnb_hotel_Booking_Analysis.ipynb: Jupyter Notebook with data cleaning, analysis, and visualization workflows.
+- **Airbnb_Open_Data.csv**: The raw dataset containing global Airbnb listings.
 
-Aditya_Yadav.py: Python script for additional data processing and model implementation.
+- **Airbnb_hotel_Booking_Analysis.ipynb**: Jupyter Notebook with data cleaning, analysis, and visualization workflows.
 
-Aditya_yadav.pkl: Serialized model object for predictive analysis.
+- **Aditya_Yadav.py**: Python script for additional data processing and model implementation.
 
-⚙️ Technologies Used
+- **Aditya_yadav.pkl**: Serialized model object for predictive analysis.
 
-Python: Data processing and modeling.
+---
 
-Pandas: Data manipulation and analysis.
+## ⚙️ Technologies Used
 
-Matplotlib / Seaborn: Data visualization.
+- **Python**: Data processing and modeling.
 
-Scikit-learn: Machine learning for predictive modeling.
+- **Pandas**: Data manipulation and analysis.
 
-🚀 Getting Started
+- **Matplotlib / Seaborn**: Data visualization.
 
-Clone the repository:
+- **Scikit-learn**: Machine learning for predictive modeling.
 
-git clone https://github.com/Aditya-yadav007/VOIS_AICTE_Oct2025_Aditya_Yadav.git
+---
 
+## 🚀 Getting Started
 
-Navigate into the project directory:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Aditya-yadav007/VOIS_AICTE_Oct2025_Aditya_Yadav.git
+    cd VOIS_AICTE_Oct2025_Aditya_Yadav
 
-cd VOIS_AICTE_Oct2025_Aditya_Yadav
+2. Install required dependencies:
 
+    pip install -r requirements.txt
 
-Install required dependencies:
+3. Open the Jupyter Notebook for analysis:
 
-pip install -r requirements.txt
+    jupyter notebook Airbnb_hotel_Booking_Analysis.ipynb
 
+---
 
-Open the Jupyter Notebook for analysis:
+## 📈 Project Highlights
 
-jupyter notebook Airbnb_hotel_Booking_Analysis.ipynb
+- **Data Cleaning**: Addressed missing values, outliers, and inconsistencies.
 
-📈 Project Highlights
+- **Exploratory Data Analysis (EDA)**: Visualized distributions, correlations, and trends.
 
-Data Cleaning: Addressed missing values, outliers, and inconsistencies.
-
-Exploratory Data Analysis (EDA): Visualized distributions, correlations, and trends.
-
-Predictive Modeling: Built and evaluated models to predict booking prices and occupancy rates.
+- **Predictive Modeling**: Built and evaluated models to predict booking prices and occupancy rates.
